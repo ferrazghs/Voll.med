@@ -1,8 +1,8 @@
-package med.voll.api.doctor.dto;
+package med.voll.api.model.doctor.dto;
 
-import med.voll.api.address.Address;
-import med.voll.api.doctor.Doctor;
-import med.voll.api.doctor.Speciality;
+import med.voll.api.model.address.Address;
+import med.voll.api.model.doctor.Doctor;
+import med.voll.api.model.doctor.Speciality;
 
 public record DetailsDoctorDto(
         Long id,

@@ -1,7 +1,7 @@
-package med.voll.api.client.dto;
+package med.voll.api.model.client.dto;
 
-import med.voll.api.address.Address;
-import med.voll.api.client.Client;
+import med.voll.api.model.address.Address;
+import med.voll.api.model.client.Client;
 
 public record DetailsClientDto(
         Long id,

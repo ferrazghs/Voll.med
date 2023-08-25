@@ -1,7 +1,7 @@
-package med.voll.api.doctor.dto;
+package med.voll.api.model.doctor.dto;
 
-import med.voll.api.doctor.Doctor;
-import med.voll.api.doctor.Speciality;
+import med.voll.api.model.doctor.Doctor;
+import med.voll.api.model.doctor.Speciality;
 
 public record FindDoctorDto(Long id, String name, String email, String crm, Speciality speciality) {
 

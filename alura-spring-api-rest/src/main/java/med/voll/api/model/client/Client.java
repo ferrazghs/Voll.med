@@ -1,13 +1,13 @@
-package med.voll.api.client;
+package med.voll.api.model.client;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.address.Address;
-import med.voll.api.client.dto.RegisterClientDto;
-import med.voll.api.client.dto.UpdateClientDto;
+import med.voll.api.model.address.Address;
+import med.voll.api.model.client.dto.RegisterClientDto;
+import med.voll.api.model.client.dto.UpdateClientDto;
 
 @Getter
 @NoArgsConstructor
